@@ -1,5 +1,9 @@
 # air_quality_test
 
-1-docker-compose up 
+docker-compose up 
 
-2-http://localhost:8080/api
+http://localhost:8080/api
+
+#test mysql
+mysql -h 172.19.0.2 -P 3306 --protocol=tcp -u root -p
+
