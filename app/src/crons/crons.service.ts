@@ -28,7 +28,6 @@ export class CronsService {
        const data = await this.apiService.getData(48.856613,2.352222);
        const pollution = Pollution.fromJson(data.result.pollution);
       const result =  await this.pollutionRepository.save(pollution);
-       console.log("Result", result);
         return "Cron running every minute...";
     }
 
