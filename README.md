@@ -1,6 +1,5 @@
 # Docker
-
-` docker pull babakoto5/air-quality`
+docker-compose up
 
 http://localhost:8080/api
 
