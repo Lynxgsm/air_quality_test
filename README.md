@@ -1,8 +1,12 @@
 # Docker
-
-docker-compose up 
+docker-compose up
 
 http://localhost:8080/api
+
+
+# swagger 
+
+http://localhost:8080/api/doc
 
 # Show data in mysql
 
