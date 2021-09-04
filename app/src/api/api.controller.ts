@@ -11,7 +11,7 @@ export class ApiController {
     constructor(private apiService:ApiService){}
 
     @Get()
-    @ApiOperation({summary:"If you don't add lat & lon , Api will use lat & lon default value "})
+    @ApiOperation({summary:"If you don't add lat & lon , Api will use the default value "})
     async getData(@Query("lat") lat:number, @Query("lon") lon:number){
         return this.apiService.getData(lat,lon);
     }
