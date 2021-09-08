@@ -13,7 +13,7 @@ RUN npm install
 # RUN npm ci --only=production
 
 # Bundle app source
-COPY /app ./
+COPY . ./
 
 RUN npm run build
 
